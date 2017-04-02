@@ -1,9 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
-options: "fd4d24b5d6444696801ae0cf23050048"
-build_time: [544394344, 323009000]
-inputs:
-  "/Users/agrosam/Develop/Genome/Genome/Sources/Genome/Genome+Exports.swift": [544393542, 0]
-  "/Users/agrosam/Develop/Genome/Genome/Sources/Genome/Mapping/Map.swift": [544393542, 0]
-  "/Users/agrosam/Develop/Genome/Genome/Sources/Genome/Mapping/MappableObject.swift": [544393542, 0]
-  "/Users/agrosam/Develop/Genome/Genome/Sources/Genome/Mapping/StandardOperators.swift": [544393542, 0]
-  "/Users/agrosam/Develop/Genome/Genome/Sources/Genome/Mapping/Transformers.swift": [544393542, 0]

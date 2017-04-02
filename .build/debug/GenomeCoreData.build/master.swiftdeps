@@ -1,6 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
-options: "50d9536f9e50da380e222805a215ca23"
-build_time: [544394347, 664869000]
-inputs:
-  "/Users/agrosam/Develop/Genome/Genome/Sources/GenomeCoreData/CoreData.swift": [544393542, 0]
-  "/Users/agrosam/Develop/Genome/Genome/Sources/GenomeCoreData/GenomeCoreData+Exports.swift": [544393542, 0]
