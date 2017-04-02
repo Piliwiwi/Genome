@@ -1,9 +1,8 @@
 .DS_Store
 
 # Swift Package Manager
-.build/
-# Leaving packages to make some cocoapods workarounds :(
-# Packages/
+# Keep default checkout folder for dependencies when building with Carthage:
+#.build/
 # Allowing Xcodeproj temporarily for carthage :(
 # *.xcodeproj
 

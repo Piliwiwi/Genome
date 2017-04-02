@@ -1,0 +1,800 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Person"
+- "=="
+- "strings"
+- "joeObject"
+- "joeNode"
+- "janeObject"
+- "janeNode"
+- "justinObject"
+- "justinNode"
+- "philObject"
+- "philNode"
+- "testNode"
+- "makeTestMap"
+- "FromNodeOperatorTestBasic"
+- "FromNodeOperatorTestMapped"
+provides-nominal:
+- "V11GenomeTests6Person"
+- "C11GenomeTests25FromNodeOperatorTestBasic"
+- "C11GenomeTests26FromNodeOperatorTestMapped"
+provides-member:
+- ["V11GenomeTests6Person", ""]
+- ["C11GenomeTests25FromNodeOperatorTestBasic", ""]
+- ["C11GenomeTests26FromNodeOperatorTestMapped", ""]
+provides-dynamic-lookup:
+- "testEmptyArray"
+- "testEmptyInt"
+- "testInt"
+- "testMappableArray"
+- "testMappableArrayOfArrays"
+- "testMappableDictionary"
+- "testMappableDictionaryOfArrays"
+- "testMappableObject"
+- "testMappableSet"
+- "testString"
+- "testStringOptional"
+- "testStringsArray"
+- "testStringsArrayOptional"
+depends-top-level:
+- !private "&&"
+- !private "<~"
+- "=="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "Dictionary"
+- "FromNodeOperatorTestBasic"
+- "FromNodeOperatorTestMapped"
+- "Hashable"
+- "Int"
+- "Map"
+- "MappableObject"
+- "Node"
+- "Person"
+- !private "Set"
+- "String"
+- "StringLiteralType"
+- "Void"
+- !private "XCTAssert"
+- !private "XCTAssertNil"
+- !private "XCTAssertNotNil"
+- "XCTestCase"
+- !private "^"
+- "janeNode"
+- "janeObject"
+- "joeNode"
+- "joeObject"
+- "justinNode"
+- "justinObject"
+- "makeTestMap"
+- "philNode"
+- "philObject"
+- "strings"
+- "testNode"
+- !private "~>"
+depends-member:
+- !private ["Ps9AnyObject", "Person"]
+- !private ["Ps9AnyObject", "Set"]
+- !private ["Ps9AnyObject", "XCTAssert"]
+- !private ["Ps9AnyObject", "XCTAssertNil"]
+- !private ["Ps9AnyObject", "XCTAssertNotNil"]
+- !private ["Ps9AnyObject", "extract"]
+- !private ["Ps9AnyObject", "hashValue"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "janeObject"]
+- !private ["Ps9AnyObject", "joeObject"]
+- !private ["Ps9AnyObject", "justinObject"]
+- ["Ps9AnyObject", "makeTestMap"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "philObject"]
+- !private ["Ps9AnyObject", "subscript"]
+- ["Ps9AnyObject", "testEmptyArray"]
+- ["Ps9AnyObject", "testEmptyInt"]
+- ["Ps9AnyObject", "testInt"]
+- ["Ps9AnyObject", "testMappableArray"]
+- ["Ps9AnyObject", "testMappableArrayOfArrays"]
+- ["Ps9AnyObject", "testMappableDictionary"]
+- ["Ps9AnyObject", "testMappableDictionaryOfArrays"]
+- ["Ps9AnyObject", "testMappableObject"]
+- ["Ps9AnyObject", "testMappableSet"]
+- ["Ps9AnyObject", "testString"]
+- ["Ps9AnyObject", "testStringOptional"]
+- ["Ps9AnyObject", "testStringsArray"]
+- ["Ps9AnyObject", "testStringsArrayOptional"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps7CVarArg", "Person"]
+- !private ["Ps7CVarArg", "Set"]
+- !private ["Ps7CVarArg", "XCTAssert"]
+- !private ["Ps7CVarArg", "XCTAssertNil"]
+- !private ["Ps7CVarArg", "XCTAssertNotNil"]
+- !private ["Ps7CVarArg", "contains"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "janeObject"]
+- !private ["Ps7CVarArg", "joeObject"]
+- !private ["Ps7CVarArg", "justinObject"]
+- ["Ps7CVarArg", "makeTestMap"]
+- !private ["Ps7CVarArg", "map"]
+- !private ["Ps7CVarArg", "philObject"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "testEmptyArray"]
+- ["Ps7CVarArg", "testEmptyInt"]
+- ["Ps7CVarArg", "testInt"]
+- ["Ps7CVarArg", "testMappableArray"]
+- ["Ps7CVarArg", "testMappableArrayOfArrays"]
+- ["Ps7CVarArg", "testMappableDictionary"]
+- ["Ps7CVarArg", "testMappableDictionaryOfArrays"]
+- ["Ps7CVarArg", "testMappableObject"]
+- ["Ps7CVarArg", "testMappableSet"]
+- ["Ps7CVarArg", "testString"]
+- ["Ps7CVarArg", "testStringOptional"]
+- ["Ps7CVarArg", "testStringsArray"]
+- ["Ps7CVarArg", "testStringsArrayOptional"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "contains"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["P4Node7Context", "count"]
+- ["P4Node7Context", "init"]
+- !private ["P4Node7Context", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "Person"]
+- !private ["Ps28CustomDebugStringConvertible", "Set"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssert"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertNil"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertNotNil"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "hashValue"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "janeObject"]
+- !private ["Ps28CustomDebugStringConvertible", "joeObject"]
+- !private ["Ps28CustomDebugStringConvertible", "justinObject"]
+- ["Ps28CustomDebugStringConvertible", "makeTestMap"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "philObject"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "testEmptyArray"]
+- ["Ps28CustomDebugStringConvertible", "testEmptyInt"]
+- ["Ps28CustomDebugStringConvertible", "testInt"]
+- ["Ps28CustomDebugStringConvertible", "testMappableArray"]
+- ["Ps28CustomDebugStringConvertible", "testMappableArrayOfArrays"]
+- ["Ps28CustomDebugStringConvertible", "testMappableDictionary"]
+- ["Ps28CustomDebugStringConvertible", "testMappableDictionaryOfArrays"]
+- ["Ps28CustomDebugStringConvertible", "testMappableObject"]
+- ["Ps28CustomDebugStringConvertible", "testMappableSet"]
+- ["Ps28CustomDebugStringConvertible", "testString"]
+- ["Ps28CustomDebugStringConvertible", "testStringOptional"]
+- ["Ps28CustomDebugStringConvertible", "testStringsArray"]
+- ["Ps28CustomDebugStringConvertible", "testStringsArrayOptional"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "contains"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Person"]
+- !private ["Ps23CustomStringConvertible", "Set"]
+- !private ["Ps23CustomStringConvertible", "XCTAssert"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertNil"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertNotNil"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "janeObject"]
+- !private ["Ps23CustomStringConvertible", "joeObject"]
+- !private ["Ps23CustomStringConvertible", "justinObject"]
+- ["Ps23CustomStringConvertible", "makeTestMap"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "philObject"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "testEmptyArray"]
+- ["Ps23CustomStringConvertible", "testEmptyInt"]
+- ["Ps23CustomStringConvertible", "testInt"]
+- ["Ps23CustomStringConvertible", "testMappableArray"]
+- ["Ps23CustomStringConvertible", "testMappableArrayOfArrays"]
+- ["Ps23CustomStringConvertible", "testMappableDictionary"]
+- ["Ps23CustomStringConvertible", "testMappableDictionaryOfArrays"]
+- ["Ps23CustomStringConvertible", "testMappableObject"]
+- ["Ps23CustomStringConvertible", "testMappableSet"]
+- ["Ps23CustomStringConvertible", "testString"]
+- ["Ps23CustomStringConvertible", "testStringOptional"]
+- ["Ps23CustomStringConvertible", "testStringsArray"]
+- ["Ps23CustomStringConvertible", "testStringsArrayOptional"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "count"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "Person"]
+- !private ["Ps9Equatable", "Set"]
+- !private ["Ps9Equatable", "XCTAssert"]
+- !private ["Ps9Equatable", "XCTAssertNil"]
+- !private ["Ps9Equatable", "XCTAssertNotNil"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "count"]
+- !private ["Ps9Equatable", "firstName"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "janeObject"]
+- !private ["Ps9Equatable", "joeObject"]
+- !private ["Ps9Equatable", "justinObject"]
+- !private ["Ps9Equatable", "lastName"]
+- ["Ps9Equatable", "makeNode"]
+- ["Ps9Equatable", "makeTestMap"]
+- !private ["Ps9Equatable", "map"]
+- !private ["Ps9Equatable", "philObject"]
+- ["Ps9Equatable", "sequence"]
+- ["Ps9Equatable", "testEmptyArray"]
+- ["Ps9Equatable", "testEmptyInt"]
+- ["Ps9Equatable", "testInt"]
+- ["Ps9Equatable", "testMappableArray"]
+- ["Ps9Equatable", "testMappableArrayOfArrays"]
+- ["Ps9Equatable", "testMappableDictionary"]
+- ["Ps9Equatable", "testMappableDictionaryOfArrays"]
+- ["Ps9Equatable", "testMappableObject"]
+- ["Ps9Equatable", "testMappableSet"]
+- ["Ps9Equatable", "testString"]
+- ["Ps9Equatable", "testStringOptional"]
+- ["Ps9Equatable", "testStringsArray"]
+- ["Ps9Equatable", "testStringsArrayOptional"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "count"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "hashValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps25ExpressibleByFloatLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "hashValue"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "hashValue"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["C11GenomeTests25FromNodeOperatorTestBasic", "Int"]
+- !private ["C11GenomeTests25FromNodeOperatorTestBasic", "String"]
+- !private ["C11GenomeTests25FromNodeOperatorTestBasic", "XCTAssert"]
+- !private ["C11GenomeTests25FromNodeOperatorTestBasic", "XCTAssertNil"]
+- !private ["C11GenomeTests25FromNodeOperatorTestBasic", "XCTAssertNotNil"]
+- ["C11GenomeTests25FromNodeOperatorTestBasic", "allTests"]
+- ["C11GenomeTests25FromNodeOperatorTestBasic", "deinit"]
+- ["C11GenomeTests25FromNodeOperatorTestBasic", "init"]
+- ["C11GenomeTests25FromNodeOperatorTestBasic", "makeTestMap"]
+- ["C11GenomeTests25FromNodeOperatorTestBasic", "map"]
+- ["C11GenomeTests25FromNodeOperatorTestBasic", "testEmptyArray"]
+- ["C11GenomeTests25FromNodeOperatorTestBasic", "testEmptyInt"]
+- ["C11GenomeTests25FromNodeOperatorTestBasic", "testInt"]
+- ["C11GenomeTests25FromNodeOperatorTestBasic", "testString"]
+- ["C11GenomeTests25FromNodeOperatorTestBasic", "testStringOptional"]
+- ["C11GenomeTests25FromNodeOperatorTestBasic", "testStringsArray"]
+- ["C11GenomeTests25FromNodeOperatorTestBasic", "testStringsArrayOptional"]
+- !private ["C11GenomeTests26FromNodeOperatorTestMapped", "Person"]
+- !private ["C11GenomeTests26FromNodeOperatorTestMapped", "Set"]
+- !private ["C11GenomeTests26FromNodeOperatorTestMapped", "String"]
+- !private ["C11GenomeTests26FromNodeOperatorTestMapped", "XCTAssert"]
+- ["C11GenomeTests26FromNodeOperatorTestMapped", "allTests"]
+- ["C11GenomeTests26FromNodeOperatorTestMapped", "deinit"]
+- ["C11GenomeTests26FromNodeOperatorTestMapped", "init"]
+- !private ["C11GenomeTests26FromNodeOperatorTestMapped", "janeObject"]
+- !private ["C11GenomeTests26FromNodeOperatorTestMapped", "joeObject"]
+- !private ["C11GenomeTests26FromNodeOperatorTestMapped", "justinObject"]
+- ["C11GenomeTests26FromNodeOperatorTestMapped", "makeTestMap"]
+- ["C11GenomeTests26FromNodeOperatorTestMapped", "map"]
+- !private ["C11GenomeTests26FromNodeOperatorTestMapped", "philObject"]
+- ["C11GenomeTests26FromNodeOperatorTestMapped", "testMappableArray"]
+- ["C11GenomeTests26FromNodeOperatorTestMapped", "testMappableArrayOfArrays"]
+- ["C11GenomeTests26FromNodeOperatorTestMapped", "testMappableDictionary"]
+- ["C11GenomeTests26FromNodeOperatorTestMapped", "testMappableDictionaryOfArrays"]
+- ["C11GenomeTests26FromNodeOperatorTestMapped", "testMappableObject"]
+- ["C11GenomeTests26FromNodeOperatorTestMapped", "testMappableSet"]
+- !private ["Ps8Hashable", "Person"]
+- !private ["Ps8Hashable", "Set"]
+- !private ["Ps8Hashable", "XCTAssert"]
+- !private ["Ps8Hashable", "XCTAssertNil"]
+- !private ["Ps8Hashable", "XCTAssertNotNil"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "contains"]
+- !private ["Ps8Hashable", "count"]
+- !private ["Ps8Hashable", "firstName"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "janeObject"]
+- !private ["Ps8Hashable", "joeObject"]
+- !private ["Ps8Hashable", "justinObject"]
+- !private ["Ps8Hashable", "lastName"]
+- ["Ps8Hashable", "makeNode"]
+- ["Ps8Hashable", "makeTestMap"]
+- !private ["Ps8Hashable", "map"]
+- !private ["Ps8Hashable", "philObject"]
+- ["Ps8Hashable", "sequence"]
+- ["Ps8Hashable", "testEmptyArray"]
+- ["Ps8Hashable", "testEmptyInt"]
+- ["Ps8Hashable", "testInt"]
+- ["Ps8Hashable", "testMappableArray"]
+- ["Ps8Hashable", "testMappableArrayOfArrays"]
+- ["Ps8Hashable", "testMappableDictionary"]
+- ["Ps8Hashable", "testMappableDictionaryOfArrays"]
+- ["Ps8Hashable", "testMappableObject"]
+- ["Ps8Hashable", "testMappableSet"]
+- ["Ps8Hashable", "testString"]
+- ["Ps8Hashable", "testStringOptional"]
+- ["Ps8Hashable", "testStringsArray"]
+- ["Ps8Hashable", "testStringsArrayOptional"]
+- ["Ps8Hashable", ""]
+- !private ["P4Node13KeyAccessible", "count"]
+- !private ["P4Node13KeyAccessible", "subscript"]
+- !private ["Ps25LosslessStringConvertible", "hashValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["C6Genome3Map", "extract"]
+- !private ["C6Genome3Map", "init"]
+- !private ["C6Genome3Map", "subscript"]
+- ["P6Genome12MappableBase", "_toAnyHashable"]
+- !private ["P6Genome12MappableBase", "firstName"]
+- ["P6Genome12MappableBase", "hashValue"]
+- ["P6Genome12MappableBase", "init"]
+- !private ["P6Genome12MappableBase", "lastName"]
+- ["P6Genome12MappableBase", "makeNode"]
+- ["P6Genome12MappableBase", "sequence"]
+- ["P6Genome12MappableBase", ""]
+- ["P6Genome14MappableObject", "_toAnyHashable"]
+- !private ["P6Genome14MappableObject", "firstName"]
+- ["P6Genome14MappableObject", "hashValue"]
+- ["P6Genome14MappableObject", "init"]
+- !private ["P6Genome14MappableObject", "lastName"]
+- ["P6Genome14MappableObject", "makeNode"]
+- ["P6Genome14MappableObject", "sequence"]
+- ["P6Genome14MappableObject", ""]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "hashValue"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "hashValue"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "hashValue"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "Person"]
+- !private ["CSo8NSObject", "Set"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "XCTAssert"]
+- !private ["CSo8NSObject", "XCTAssertNil"]
+- !private ["CSo8NSObject", "XCTAssertNotNil"]
+- ["CSo8NSObject", "allTests"]
+- !private ["CSo8NSObject", "hashValue"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "janeObject"]
+- !private ["CSo8NSObject", "joeObject"]
+- !private ["CSo8NSObject", "justinObject"]
+- ["CSo8NSObject", "makeTestMap"]
+- ["CSo8NSObject", "map"]
+- !private ["CSo8NSObject", "philObject"]
+- ["CSo8NSObject", "testEmptyArray"]
+- ["CSo8NSObject", "testEmptyInt"]
+- ["CSo8NSObject", "testInt"]
+- ["CSo8NSObject", "testMappableArray"]
+- ["CSo8NSObject", "testMappableArrayOfArrays"]
+- ["CSo8NSObject", "testMappableDictionary"]
+- ["CSo8NSObject", "testMappableDictionaryOfArrays"]
+- ["CSo8NSObject", "testMappableObject"]
+- ["CSo8NSObject", "testMappableSet"]
+- ["CSo8NSObject", "testString"]
+- ["CSo8NSObject", "testStringOptional"]
+- ["CSo8NSObject", "testStringsArray"]
+- ["CSo8NSObject", "testStringsArrayOptional"]
+- !private ["PSo16NSObjectProtocol", "Person"]
+- !private ["PSo16NSObjectProtocol", "Set"]
+- !private ["PSo16NSObjectProtocol", "XCTAssert"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertNil"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertNotNil"]
+- !private ["PSo16NSObjectProtocol", "hashValue"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "janeObject"]
+- !private ["PSo16NSObjectProtocol", "joeObject"]
+- !private ["PSo16NSObjectProtocol", "justinObject"]
+- ["PSo16NSObjectProtocol", "makeTestMap"]
+- !private ["PSo16NSObjectProtocol", "map"]
+- !private ["PSo16NSObjectProtocol", "philObject"]
+- ["PSo16NSObjectProtocol", "testEmptyArray"]
+- ["PSo16NSObjectProtocol", "testEmptyInt"]
+- ["PSo16NSObjectProtocol", "testInt"]
+- ["PSo16NSObjectProtocol", "testMappableArray"]
+- ["PSo16NSObjectProtocol", "testMappableArrayOfArrays"]
+- ["PSo16NSObjectProtocol", "testMappableDictionary"]
+- ["PSo16NSObjectProtocol", "testMappableDictionaryOfArrays"]
+- ["PSo16NSObjectProtocol", "testMappableObject"]
+- ["PSo16NSObjectProtocol", "testMappableSet"]
+- ["PSo16NSObjectProtocol", "testString"]
+- ["PSo16NSObjectProtocol", "testStringOptional"]
+- ["PSo16NSObjectProtocol", "testStringsArray"]
+- ["PSo16NSObjectProtocol", "testStringsArrayOptional"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo19NSPasteboardReading", "hashValue"]
+- ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardWriting", "hashValue"]
+- ["PSo19NSPasteboardWriting", "init"]
+- !private ["PSo14NSSecureCoding", "hashValue"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "hashValue"]
+- ["CSo8NSString", "init"]
+- ["O4Node4Node", "init"]
+- !private ["P4Node10NodeBacked", "extract"]
+- ["P4Node10NodeBacked", "init"]
+- !private ["P4Node10NodeBacked", "subscript"]
+- ["P4Node15NodeConvertible", "_toAnyHashable"]
+- !private ["P4Node15NodeConvertible", "extract"]
+- !private ["P4Node15NodeConvertible", "firstName"]
+- ["P4Node15NodeConvertible", "hashValue"]
+- ["P4Node15NodeConvertible", "init"]
+- !private ["P4Node15NodeConvertible", "lastName"]
+- ["P4Node15NodeConvertible", "makeNode"]
+- ["P4Node15NodeConvertible", "sequence"]
+- !private ["P4Node15NodeConvertible", "subscript"]
+- ["P4Node15NodeConvertible", ""]
+- ["P4Node17NodeInitializable", "_toAnyHashable"]
+- !private ["P4Node17NodeInitializable", "extract"]
+- !private ["P4Node17NodeInitializable", "firstName"]
+- ["P4Node17NodeInitializable", "hashValue"]
+- ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "lastName"]
+- ["P4Node17NodeInitializable", "makeNode"]
+- ["P4Node17NodeInitializable", "sequence"]
+- !private ["P4Node17NodeInitializable", "subscript"]
+- ["P4Node17NodeInitializable", ""]
+- ["P4Node17NodeRepresentable", "_toAnyHashable"]
+- !private ["P4Node17NodeRepresentable", "extract"]
+- !private ["P4Node17NodeRepresentable", "firstName"]
+- ["P4Node17NodeRepresentable", "hashValue"]
+- ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "lastName"]
+- ["P4Node17NodeRepresentable", "makeNode"]
+- ["P4Node17NodeRepresentable", "sequence"]
+- !private ["P4Node17NodeRepresentable", "subscript"]
+- ["P4Node17NodeRepresentable", ""]
+- !private ["P13PathIndexable9PathIndex", "hashValue"]
+- ["P13PathIndexable9PathIndex", "init"]
+- !private ["P13PathIndexable13PathIndexable", "extract"]
+- ["P13PathIndexable13PathIndexable", "init"]
+- !private ["P13PathIndexable13PathIndexable", "subscript"]
+- ["V11GenomeTests6Person", "Int"]
+- ["V11GenomeTests6Person", "Map"]
+- ["V11GenomeTests6Person", "String"]
+- ["V11GenomeTests6Person", "Void"]
+- ["V11GenomeTests6Person", "_toAnyHashable"]
+- ["V11GenomeTests6Person", "deinit"]
+- ["V11GenomeTests6Person", "firstName"]
+- ["V11GenomeTests6Person", "hashValue"]
+- ["V11GenomeTests6Person", "init"]
+- ["V11GenomeTests6Person", "lastName"]
+- ["V11GenomeTests6Person", "makeNode"]
+- ["V11GenomeTests6Person", "sequence"]
+- !private ["P11Polymorphic11Polymorphic", "extract"]
+- !private ["P11Polymorphic11Polymorphic", "hashValue"]
+- ["P11Polymorphic11Polymorphic", "init"]
+- !private ["P11Polymorphic11Polymorphic", "subscript"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps8Sequence", "contains"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs3Set", "contains"]
+- !private ["Vs3Set", "count"]
+- !private ["Vs3Set", "init"]
+- !private ["Ps10SetAlgebra", "contains"]
+- !private ["Ps10SetAlgebra", "count"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "hashValue"]
+- ["SS", "init"]
+- !private ["Ps16TextOutputStream", "hashValue"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "hashValue"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo17XCTWaiterDelegate", "Person"]
+- !private ["PSo17XCTWaiterDelegate", "Set"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssert"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssertNil"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssertNotNil"]
+- !private ["PSo17XCTWaiterDelegate", "init"]
+- !private ["PSo17XCTWaiterDelegate", "janeObject"]
+- !private ["PSo17XCTWaiterDelegate", "joeObject"]
+- !private ["PSo17XCTWaiterDelegate", "justinObject"]
+- ["PSo17XCTWaiterDelegate", "makeTestMap"]
+- !private ["PSo17XCTWaiterDelegate", "map"]
+- !private ["PSo17XCTWaiterDelegate", "philObject"]
+- ["PSo17XCTWaiterDelegate", "testEmptyArray"]
+- ["PSo17XCTWaiterDelegate", "testEmptyInt"]
+- ["PSo17XCTWaiterDelegate", "testInt"]
+- ["PSo17XCTWaiterDelegate", "testMappableArray"]
+- ["PSo17XCTWaiterDelegate", "testMappableArrayOfArrays"]
+- ["PSo17XCTWaiterDelegate", "testMappableDictionary"]
+- ["PSo17XCTWaiterDelegate", "testMappableDictionaryOfArrays"]
+- ["PSo17XCTWaiterDelegate", "testMappableObject"]
+- ["PSo17XCTWaiterDelegate", "testMappableSet"]
+- ["PSo17XCTWaiterDelegate", "testString"]
+- ["PSo17XCTWaiterDelegate", "testStringOptional"]
+- ["PSo17XCTWaiterDelegate", "testStringsArray"]
+- ["PSo17XCTWaiterDelegate", "testStringsArrayOptional"]
+- ["PSo17XCTWaiterDelegate", ""]
+- !private ["CSo6XCTest", "Int"]
+- !private ["CSo6XCTest", "Person"]
+- !private ["CSo6XCTest", "Set"]
+- !private ["CSo6XCTest", "String"]
+- !private ["CSo6XCTest", "XCTAssert"]
+- !private ["CSo6XCTest", "XCTAssertNil"]
+- !private ["CSo6XCTest", "XCTAssertNotNil"]
+- ["CSo6XCTest", "allTests"]
+- ["CSo6XCTest", "init"]
+- !private ["CSo6XCTest", "janeObject"]
+- !private ["CSo6XCTest", "joeObject"]
+- !private ["CSo6XCTest", "justinObject"]
+- ["CSo6XCTest", "makeTestMap"]
+- ["CSo6XCTest", "map"]
+- !private ["CSo6XCTest", "philObject"]
+- ["CSo6XCTest", "testEmptyArray"]
+- ["CSo6XCTest", "testEmptyInt"]
+- ["CSo6XCTest", "testInt"]
+- ["CSo6XCTest", "testMappableArray"]
+- ["CSo6XCTest", "testMappableArrayOfArrays"]
+- ["CSo6XCTest", "testMappableDictionary"]
+- ["CSo6XCTest", "testMappableDictionaryOfArrays"]
+- ["CSo6XCTest", "testMappableObject"]
+- ["CSo6XCTest", "testMappableSet"]
+- ["CSo6XCTest", "testString"]
+- ["CSo6XCTest", "testStringOptional"]
+- ["CSo6XCTest", "testStringsArray"]
+- ["CSo6XCTest", "testStringsArrayOptional"]
+- !private ["CSo10XCTestCase", "Int"]
+- !private ["CSo10XCTestCase", "Person"]
+- !private ["CSo10XCTestCase", "Set"]
+- !private ["CSo10XCTestCase", "String"]
+- !private ["CSo10XCTestCase", "XCTAssert"]
+- !private ["CSo10XCTestCase", "XCTAssertNil"]
+- !private ["CSo10XCTestCase", "XCTAssertNotNil"]
+- ["CSo10XCTestCase", "allTests"]
+- ["CSo10XCTestCase", "init"]
+- !private ["CSo10XCTestCase", "janeObject"]
+- !private ["CSo10XCTestCase", "joeObject"]
+- !private ["CSo10XCTestCase", "justinObject"]
+- ["CSo10XCTestCase", "makeTestMap"]
+- ["CSo10XCTestCase", "map"]
+- !private ["CSo10XCTestCase", "philObject"]
+- ["CSo10XCTestCase", "testEmptyArray"]
+- ["CSo10XCTestCase", "testEmptyInt"]
+- ["CSo10XCTestCase", "testInt"]
+- ["CSo10XCTestCase", "testMappableArray"]
+- ["CSo10XCTestCase", "testMappableArrayOfArrays"]
+- ["CSo10XCTestCase", "testMappableDictionary"]
+- ["CSo10XCTestCase", "testMappableDictionaryOfArrays"]
+- ["CSo10XCTestCase", "testMappableObject"]
+- ["CSo10XCTestCase", "testMappableSet"]
+- ["CSo10XCTestCase", "testString"]
+- ["CSo10XCTestCase", "testStringOptional"]
+- ["CSo10XCTestCase", "testStringsArray"]
+- ["CSo10XCTestCase", "testStringsArrayOptional"]
+- ["CSo10XCTestCase", ""]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "hashValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "hashValue"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "hashValue"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "hashValue"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "hashValue"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Person"]
+- !private ["Ps9_Hashable", "Set"]
+- !private ["Ps9_Hashable", "XCTAssert"]
+- !private ["Ps9_Hashable", "XCTAssertNil"]
+- !private ["Ps9_Hashable", "XCTAssertNotNil"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "contains"]
+- !private ["Ps9_Hashable", "count"]
+- !private ["Ps9_Hashable", "firstName"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "janeObject"]
+- !private ["Ps9_Hashable", "joeObject"]
+- !private ["Ps9_Hashable", "justinObject"]
+- !private ["Ps9_Hashable", "lastName"]
+- ["Ps9_Hashable", "makeNode"]
+- ["Ps9_Hashable", "makeTestMap"]
+- !private ["Ps9_Hashable", "map"]
+- !private ["Ps9_Hashable", "philObject"]
+- ["Ps9_Hashable", "sequence"]
+- ["Ps9_Hashable", "testEmptyArray"]
+- ["Ps9_Hashable", "testEmptyInt"]
+- ["Ps9_Hashable", "testInt"]
+- ["Ps9_Hashable", "testMappableArray"]
+- ["Ps9_Hashable", "testMappableArrayOfArrays"]
+- ["Ps9_Hashable", "testMappableDictionary"]
+- ["Ps9_Hashable", "testMappableDictionaryOfArrays"]
+- ["Ps9_Hashable", "testMappableObject"]
+- ["Ps9_Hashable", "testMappableSet"]
+- ["Ps9_Hashable", "testString"]
+- ["Ps9_Hashable", "testStringOptional"]
+- ["Ps9_Hashable", "testStringsArray"]
+- ["Ps9_Hashable", "testStringsArrayOptional"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "contains"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "contains"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "contains"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "P4Node7Context"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C11GenomeTests25FromNodeOperatorTestBasic"
+- "C11GenomeTests26FromNodeOperatorTestMapped"
+- "Ps8Hashable"
+- !private "P4Node13KeyAccessible"
+- "Ps25LosslessStringConvertible"
+- !private "C6Genome3Map"
+- "P6Genome12MappableBase"
+- "P6Genome14MappableObject"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo19NSPasteboardReading"
+- "PSo19NSPasteboardWriting"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "O4Node4Node"
+- "P4Node10NodeBacked"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "P13PathIndexable9PathIndex"
+- "P13PathIndexable13PathIndexable"
+- "V11GenomeTests6Person"
+- "P11Polymorphic11Polymorphic"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "Vs3Set"
+- !private "Ps10SetAlgebra"
+- !private "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "PSo17XCTWaiterDelegate"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUISiriService.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSPredicateExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTKVOExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTDarwinNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTWaiter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XCTest.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/Genome.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/Node.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/PathIndexable.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "9840a2282ff5dbdfc50246c387fc951b"

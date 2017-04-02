@@ -1,0 +1,538 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Map"
+- "=="
+provides-nominal:
+- "C6Genome3Map"
+- "OC6Genome3Map13OperationType"
+provides-member:
+- ["C6Genome3Map", ""]
+- ["OC6Genome3Map13OperationType", ""]
+- ["C6Genome3Map", "subscript"]
+- ["C6Genome3Map", "subscript"]
+- ["C6Genome3Map", "subscript"]
+- ["C6Genome3Map", "setToLastPath"]
+- ["C6Genome3Map", "setToLastPath"]
+- ["C6Genome3Map", "setToLastPath"]
+- ["C6Genome3Map", "setToLastPath"]
+- ["C6Genome3Map", "setToLastPath"]
+- ["C6Genome3Map", "setToLastPath"]
+- ["C6Genome3Map", "setToLastPath"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Context"
+- !private "Dictionary"
+- !private "EmptyNode"
+- !private "ExtendedGraphemeClusterType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Map"
+- "Node"
+- "NodeBacked"
+- "NodeConvertible"
+- "NodeRepresentable"
+- "PathIndex"
+- "Set"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["Ps9AnyObject", "EmptyNode"]
+- !private ["Ps9AnyObject", "Node"]
+- !private ["Ps9AnyObject", "String"]
+- ["Ps9AnyObject", "array"]
+- ["Ps9AnyObject", "bool"]
+- ["Ps9AnyObject", "context"]
+- ["Ps9AnyObject", "double"]
+- ["Ps9AnyObject", "float"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "int"]
+- ["Ps9AnyObject", "isNull"]
+- !private ["Ps9AnyObject", "lastPath"]
+- ["Ps9AnyObject", "makeNode"]
+- ["Ps9AnyObject", "node"]
+- ["Ps9AnyObject", "object"]
+- ["Ps9AnyObject", "pathIndexableArray"]
+- ["Ps9AnyObject", "pathIndexableObject"]
+- !private ["Ps9AnyObject", "result"]
+- !private ["Ps9AnyObject", "setToLastPath"]
+- ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "type"]
+- ["Ps9AnyObject", "uint"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "makeNode"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "makeNode"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps23BidirectionalCollection", "split"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Vs9Character", "init"]
+- !private ["VSS13CharacterView", "split"]
+- !private ["Ps10Collection", "forEach"]
+- !private ["Ps10Collection", "makeNode"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "split"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["P4Node7Context", "forEach"]
+- !private ["P4Node7Context", "init"]
+- !private ["P4Node7Context", "isNull"]
+- !private ["P4Node7Context", "makeNode"]
+- !private ["P4Node7Context", "map"]
+- !private ["P4Node7Context", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- !private ["Ps28CustomDebugStringConvertible", "forEach"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "makeNode"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "characters"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "characters"]
+- !private ["Ps17CustomReflectable", "forEach"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "makeNode"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "makeNode"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs10Dictionary", "forEach"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "characters"]
+- !private ["Ps9Equatable", "fromNode"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isNull"]
+- !private ["Ps9Equatable", "makeNode"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "toNode"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isNull"]
+- !private ["Ps25ExpressibleByArrayLiteral", "makeNode"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "isNull"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "subscript"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "forEach"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "isNull"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isNull"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "subscript"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "isNull"]
+- !private ["Ps25ExpressibleByFloatLiteral", "subscript"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "isNull"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "subscript"]
+- !private ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "isNull"]
+- !private ["Ps23ExpressibleByNilLiteral", "subscript"]
+- !private ["Ps26ExpressibleByStringLiteral", "characters"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isNull"]
+- !private ["Ps26ExpressibleByStringLiteral", "subscript"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isNull"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "subscript"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "characters"]
+- !private ["Ps8Hashable", "fromNode"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "makeNode"]
+- !private ["Ps8Hashable", "toNode"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["P4Node13KeyAccessible", "forEach"]
+- !private ["P4Node13KeyAccessible", "subscript"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "characters"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- ["C6Genome3Map", "Context"]
+- !private ["C6Genome3Map", "EmptyNode"]
+- ["C6Genome3Map", "Map"]
+- ["C6Genome3Map", "Node"]
+- ["C6Genome3Map", "NodeConvertible"]
+- ["C6Genome3Map", "NodeRepresentable"]
+- ["C6Genome3Map", "OperationType"]
+- ["C6Genome3Map", "PathIndex"]
+- ["C6Genome3Map", "Set"]
+- ["C6Genome3Map", "String"]
+- ["C6Genome3Map", "array"]
+- ["C6Genome3Map", "bool"]
+- ["C6Genome3Map", "context"]
+- ["C6Genome3Map", "deinit"]
+- ["C6Genome3Map", "double"]
+- ["C6Genome3Map", "float"]
+- ["C6Genome3Map", "init"]
+- ["C6Genome3Map", "int"]
+- ["C6Genome3Map", "isNull"]
+- ["C6Genome3Map", "lastPath"]
+- ["C6Genome3Map", "makeNode"]
+- ["C6Genome3Map", "node"]
+- ["C6Genome3Map", "object"]
+- ["C6Genome3Map", "pathIndexableArray"]
+- ["C6Genome3Map", "pathIndexableObject"]
+- ["C6Genome3Map", "result"]
+- ["C6Genome3Map", "setToLastPath"]
+- ["C6Genome3Map", "string"]
+- ["C6Genome3Map", "subscript"]
+- ["C6Genome3Map", "type"]
+- ["C6Genome3Map", "uint"]
+- !private ["Ps10MirrorPath", "characters"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "makeNode"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["O4Node4Node", "init"]
+- !private ["O4Node4Node", "isNull"]
+- !private ["O4Node4Node", "subscript"]
+- !private ["P4Node10NodeBacked", "EmptyNode"]
+- !private ["P4Node10NodeBacked", "Node"]
+- !private ["P4Node10NodeBacked", "String"]
+- ["P4Node10NodeBacked", "array"]
+- ["P4Node10NodeBacked", "bool"]
+- ["P4Node10NodeBacked", "context"]
+- ["P4Node10NodeBacked", "double"]
+- ["P4Node10NodeBacked", "float"]
+- ["P4Node10NodeBacked", "init"]
+- ["P4Node10NodeBacked", "int"]
+- ["P4Node10NodeBacked", "isNull"]
+- !private ["P4Node10NodeBacked", "lastPath"]
+- ["P4Node10NodeBacked", "makeNode"]
+- ["P4Node10NodeBacked", "node"]
+- ["P4Node10NodeBacked", "object"]
+- ["P4Node10NodeBacked", "pathIndexableArray"]
+- ["P4Node10NodeBacked", "pathIndexableObject"]
+- !private ["P4Node10NodeBacked", "result"]
+- !private ["P4Node10NodeBacked", "setToLastPath"]
+- ["P4Node10NodeBacked", "string"]
+- !private ["P4Node10NodeBacked", "subscript"]
+- !private ["P4Node10NodeBacked", "type"]
+- ["P4Node10NodeBacked", "uint"]
+- ["P4Node10NodeBacked", ""]
+- !private ["P4Node15NodeConvertible", "EmptyNode"]
+- !private ["P4Node15NodeConvertible", "Node"]
+- !private ["P4Node15NodeConvertible", "String"]
+- !private ["P4Node15NodeConvertible", "_getBuiltinLogicValue"]
+- ["P4Node15NodeConvertible", "array"]
+- ["P4Node15NodeConvertible", "bool"]
+- !private ["P4Node15NodeConvertible", "characters"]
+- ["P4Node15NodeConvertible", "context"]
+- ["P4Node15NodeConvertible", "double"]
+- ["P4Node15NodeConvertible", "float"]
+- !private ["P4Node15NodeConvertible", "hashValue"]
+- ["P4Node15NodeConvertible", "init"]
+- ["P4Node15NodeConvertible", "int"]
+- ["P4Node15NodeConvertible", "isNull"]
+- !private ["P4Node15NodeConvertible", "lastPath"]
+- ["P4Node15NodeConvertible", "makeNode"]
+- ["P4Node15NodeConvertible", "node"]
+- ["P4Node15NodeConvertible", "object"]
+- ["P4Node15NodeConvertible", "pathIndexableArray"]
+- ["P4Node15NodeConvertible", "pathIndexableObject"]
+- !private ["P4Node15NodeConvertible", "result"]
+- !private ["P4Node15NodeConvertible", "setToLastPath"]
+- ["P4Node15NodeConvertible", "string"]
+- !private ["P4Node15NodeConvertible", "subscript"]
+- !private ["P4Node15NodeConvertible", "type"]
+- ["P4Node15NodeConvertible", "uint"]
+- ["P4Node15NodeConvertible", ""]
+- !private ["P4Node17NodeInitializable", "EmptyNode"]
+- !private ["P4Node17NodeInitializable", "Node"]
+- !private ["P4Node17NodeInitializable", "String"]
+- !private ["P4Node17NodeInitializable", "_getBuiltinLogicValue"]
+- ["P4Node17NodeInitializable", "array"]
+- ["P4Node17NodeInitializable", "bool"]
+- !private ["P4Node17NodeInitializable", "characters"]
+- ["P4Node17NodeInitializable", "context"]
+- ["P4Node17NodeInitializable", "double"]
+- ["P4Node17NodeInitializable", "float"]
+- !private ["P4Node17NodeInitializable", "hashValue"]
+- ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeInitializable", "int"]
+- ["P4Node17NodeInitializable", "isNull"]
+- !private ["P4Node17NodeInitializable", "lastPath"]
+- ["P4Node17NodeInitializable", "makeNode"]
+- ["P4Node17NodeInitializable", "node"]
+- ["P4Node17NodeInitializable", "object"]
+- ["P4Node17NodeInitializable", "pathIndexableArray"]
+- ["P4Node17NodeInitializable", "pathIndexableObject"]
+- !private ["P4Node17NodeInitializable", "result"]
+- !private ["P4Node17NodeInitializable", "setToLastPath"]
+- ["P4Node17NodeInitializable", "string"]
+- !private ["P4Node17NodeInitializable", "subscript"]
+- !private ["P4Node17NodeInitializable", "type"]
+- ["P4Node17NodeInitializable", "uint"]
+- ["P4Node17NodeInitializable", ""]
+- !private ["P4Node17NodeRepresentable", "EmptyNode"]
+- !private ["P4Node17NodeRepresentable", "Node"]
+- !private ["P4Node17NodeRepresentable", "String"]
+- !private ["P4Node17NodeRepresentable", "_getBuiltinLogicValue"]
+- ["P4Node17NodeRepresentable", "array"]
+- ["P4Node17NodeRepresentable", "bool"]
+- !private ["P4Node17NodeRepresentable", "characters"]
+- ["P4Node17NodeRepresentable", "context"]
+- ["P4Node17NodeRepresentable", "double"]
+- ["P4Node17NodeRepresentable", "float"]
+- !private ["P4Node17NodeRepresentable", "hashValue"]
+- ["P4Node17NodeRepresentable", "init"]
+- ["P4Node17NodeRepresentable", "int"]
+- ["P4Node17NodeRepresentable", "isNull"]
+- !private ["P4Node17NodeRepresentable", "lastPath"]
+- ["P4Node17NodeRepresentable", "makeNode"]
+- ["P4Node17NodeRepresentable", "node"]
+- ["P4Node17NodeRepresentable", "object"]
+- ["P4Node17NodeRepresentable", "pathIndexableArray"]
+- ["P4Node17NodeRepresentable", "pathIndexableObject"]
+- !private ["P4Node17NodeRepresentable", "result"]
+- !private ["P4Node17NodeRepresentable", "setToLastPath"]
+- ["P4Node17NodeRepresentable", "string"]
+- !private ["P4Node17NodeRepresentable", "subscript"]
+- !private ["P4Node17NodeRepresentable", "type"]
+- ["P4Node17NodeRepresentable", "uint"]
+- ["P4Node17NodeRepresentable", ""]
+- ["OC6Genome3Map13OperationType", "=="]
+- ["OC6Genome3Map13OperationType", "_toAnyHashable"]
+- ["OC6Genome3Map13OperationType", "deinit"]
+- ["OC6Genome3Map13OperationType", "fromNode"]
+- ["OC6Genome3Map13OperationType", "hashValue"]
+- ["OC6Genome3Map13OperationType", "toNode"]
+- !private ["P13PathIndexable9PathIndex", "characters"]
+- !private ["P13PathIndexable9PathIndex", "hashValue"]
+- !private ["P13PathIndexable9PathIndex", "init"]
+- !private ["P13PathIndexable13PathIndexable", "EmptyNode"]
+- !private ["P13PathIndexable13PathIndexable", "Node"]
+- !private ["P13PathIndexable13PathIndexable", "String"]
+- ["P13PathIndexable13PathIndexable", "array"]
+- ["P13PathIndexable13PathIndexable", "bool"]
+- ["P13PathIndexable13PathIndexable", "context"]
+- ["P13PathIndexable13PathIndexable", "double"]
+- ["P13PathIndexable13PathIndexable", "float"]
+- ["P13PathIndexable13PathIndexable", "init"]
+- ["P13PathIndexable13PathIndexable", "int"]
+- ["P13PathIndexable13PathIndexable", "isNull"]
+- !private ["P13PathIndexable13PathIndexable", "lastPath"]
+- ["P13PathIndexable13PathIndexable", "makeNode"]
+- ["P13PathIndexable13PathIndexable", "node"]
+- ["P13PathIndexable13PathIndexable", "object"]
+- ["P13PathIndexable13PathIndexable", "pathIndexableArray"]
+- ["P13PathIndexable13PathIndexable", "pathIndexableObject"]
+- !private ["P13PathIndexable13PathIndexable", "result"]
+- !private ["P13PathIndexable13PathIndexable", "setToLastPath"]
+- ["P13PathIndexable13PathIndexable", "string"]
+- !private ["P13PathIndexable13PathIndexable", "subscript"]
+- !private ["P13PathIndexable13PathIndexable", "type"]
+- ["P13PathIndexable13PathIndexable", "uint"]
+- ["P13PathIndexable13PathIndexable", ""]
+- !private ["P11Polymorphic11Polymorphic", "EmptyNode"]
+- !private ["P11Polymorphic11Polymorphic", "Node"]
+- !private ["P11Polymorphic11Polymorphic", "String"]
+- ["P11Polymorphic11Polymorphic", "array"]
+- ["P11Polymorphic11Polymorphic", "bool"]
+- !private ["P11Polymorphic11Polymorphic", "characters"]
+- ["P11Polymorphic11Polymorphic", "context"]
+- ["P11Polymorphic11Polymorphic", "double"]
+- ["P11Polymorphic11Polymorphic", "float"]
+- ["P11Polymorphic11Polymorphic", "init"]
+- ["P11Polymorphic11Polymorphic", "int"]
+- ["P11Polymorphic11Polymorphic", "isNull"]
+- !private ["P11Polymorphic11Polymorphic", "lastPath"]
+- ["P11Polymorphic11Polymorphic", "makeNode"]
+- ["P11Polymorphic11Polymorphic", "node"]
+- ["P11Polymorphic11Polymorphic", "object"]
+- ["P11Polymorphic11Polymorphic", "pathIndexableArray"]
+- ["P11Polymorphic11Polymorphic", "pathIndexableObject"]
+- !private ["P11Polymorphic11Polymorphic", "result"]
+- !private ["P11Polymorphic11Polymorphic", "setToLastPath"]
+- ["P11Polymorphic11Polymorphic", "string"]
+- !private ["P11Polymorphic11Polymorphic", "subscript"]
+- !private ["P11Polymorphic11Polymorphic", "type"]
+- ["P11Polymorphic11Polymorphic", "uint"]
+- ["P11Polymorphic11Polymorphic", ""]
+- !private ["Ps22RandomAccessCollection", "makeNode"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "makeNode"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "split"]
+- !private ["Ps8Sequence", "forEach"]
+- !private ["Ps8Sequence", "makeNode"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "split"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs3Set", "makeNode"]
+- !private ["Ps10SetAlgebra", "makeNode"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["SS", "characters"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "characters"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "characters"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps14_ArrayProtocol", "makeNode"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps23_BidirectionalIndexable", "makeNode"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["Ps23_BidirectionalIndexable", "split"]
+- !private ["Ps24_DestructorSafeContainer", "makeNode"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "characters"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "characters"]
+- !private ["Ps9_Hashable", "fromNode"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "makeNode"]
+- !private ["Ps9_Hashable", "toNode"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps10_Indexable", "forEach"]
+- !private ["Ps10_Indexable", "makeNode"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "split"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "forEach"]
+- !private ["Ps14_IndexableBase", "makeNode"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "split"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps17_MutableIndexable", "makeNode"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["Ps22_RandomAccessIndexable", "makeNode"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "makeNode"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "split"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "VSS13CharacterView"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "P4Node7Context"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "P4Node13KeyAccessible"
+- !private "Ps25LosslessStringConvertible"
+- "C6Genome3Map"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "O4Node4Node"
+- "P4Node10NodeBacked"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "OC6Genome3Map13OperationType"
+- !private "P13PathIndexable9PathIndex"
+- "P13PathIndexable13PathIndexable"
+- "P11Polymorphic11Polymorphic"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "Vs3Set"
+- !private "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/Node.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/PathIndexable.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "a40ddd9f5bbe43c9ce736a28a2c1bd45"

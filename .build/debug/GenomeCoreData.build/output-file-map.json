@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeCoreData.build/master.swiftdeps"
+  },
+  "/Users/agrosam/Develop/Genome/Genome/Sources/GenomeCoreData/CoreData.swift": {
+    "dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeCoreData.build/CoreData.d",
+    "object": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeCoreData.build/CoreData.swift.o",
+    "swiftmodule": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeCoreData.build/CoreData~partial.swiftmodule",
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeCoreData.build/CoreData.swiftdeps"
+  },
+  "/Users/agrosam/Develop/Genome/Genome/Sources/GenomeCoreData/GenomeCoreData+Exports.swift": {
+    "dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeCoreData.build/GenomeCoreData+Exports.d",
+    "object": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeCoreData.build/GenomeCoreData+Exports.swift.o",
+    "swiftmodule": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeCoreData.build/GenomeCoreData+Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeCoreData.build/GenomeCoreData+Exports.swiftdeps"
+  }
+}

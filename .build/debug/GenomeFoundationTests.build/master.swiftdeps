@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "c0e89806bb2c24c88e4f9696bd00bc38"
+build_time: [544435654, 460155000]
+inputs:
+  "/Users/agrosam/Develop/Genome/Genome/Tests/GenomeFoundationTests/JSONTests.swift": [544393542, 0]
+  "/Users/agrosam/Develop/Genome/Genome/Tests/GenomeFoundationTests/NodeFoundationTests.swift": [544393542, 0]

@@ -1,0 +1,338 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TransformTest"
+provides-nominal:
+- "C11GenomeTests13TransformTest"
+provides-member:
+- ["C11GenomeTests13TransformTest", ""]
+provides-dynamic-lookup:
+- "optStringToString"
+- "stringToString"
+- "testTransform"
+depends-top-level:
+- !private "<~"
+- !private "=="
+- "Array"
+- "Dictionary"
+- !private "Map"
+- "Node"
+- "String"
+- "StringLiteralType"
+- "TransformTest"
+- !private "XCTAssert"
+- "XCTestCase"
+- !private "~>"
+depends-member:
+- !private ["Ps9AnyObject", "Map"]
+- !private ["Ps9AnyObject", "XCTAssert"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "optStringToString"]
+- !private ["Ps9AnyObject", "stringToString"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "testNode"]
+- ["Ps9AnyObject", "testTransform"]
+- !private ["Ps9AnyObject", "transformFromNode"]
+- !private ["Ps9AnyObject", "transformToNode"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "Map"]
+- !private ["Ps7CVarArg", "XCTAssert"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "optStringToString"]
+- !private ["Ps7CVarArg", "stringToString"]
+- !private ["Ps7CVarArg", "testNode"]
+- ["Ps7CVarArg", "testTransform"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- ["P4Node7Context", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Map"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssert"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "optStringToString"]
+- !private ["Ps28CustomDebugStringConvertible", "stringToString"]
+- !private ["Ps28CustomDebugStringConvertible", "testNode"]
+- ["Ps28CustomDebugStringConvertible", "testTransform"]
+- !private ["Ps28CustomDebugStringConvertible", "transformFromNode"]
+- !private ["Ps28CustomDebugStringConvertible", "transformToNode"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "transformFromNode"]
+- !private ["Ps17CustomReflectable", "transformToNode"]
+- !private ["Ps23CustomStringConvertible", "Map"]
+- !private ["Ps23CustomStringConvertible", "XCTAssert"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "optStringToString"]
+- !private ["Ps23CustomStringConvertible", "stringToString"]
+- !private ["Ps23CustomStringConvertible", "testNode"]
+- ["Ps23CustomStringConvertible", "testTransform"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Map"]
+- !private ["Ps9Equatable", "XCTAssert"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "optStringToString"]
+- !private ["Ps9Equatable", "stringToString"]
+- !private ["Ps9Equatable", "testNode"]
+- ["Ps9Equatable", "testTransform"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps27ExpressibleByBooleanLiteral", "init"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps25ExpressibleByFloatLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "transformFromNode"]
+- !private ["Ps23ExpressibleByNilLiteral", "transformToNode"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Map"]
+- !private ["Ps8Hashable", "XCTAssert"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "optStringToString"]
+- !private ["Ps8Hashable", "stringToString"]
+- !private ["Ps8Hashable", "testNode"]
+- ["Ps8Hashable", "testTransform"]
+- ["Ps8Hashable", ""]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["C6Genome3Map", "init"]
+- !private ["C6Genome3Map", "subscript"]
+- !private ["C6Genome3Map", "transformFromNode"]
+- !private ["C6Genome3Map", "transformToNode"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Map"]
+- ["CSo8NSObject", "Node"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "XCTAssert"]
+- ["CSo8NSObject", "allTests"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "optStringToString"]
+- ["CSo8NSObject", "stringToString"]
+- ["CSo8NSObject", "testNode"]
+- ["CSo8NSObject", "testTransform"]
+- !private ["PSo16NSObjectProtocol", "Map"]
+- !private ["PSo16NSObjectProtocol", "XCTAssert"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "optStringToString"]
+- !private ["PSo16NSObjectProtocol", "stringToString"]
+- !private ["PSo16NSObjectProtocol", "testNode"]
+- ["PSo16NSObjectProtocol", "testTransform"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo19NSPasteboardReading", "init"]
+- ["PSo19NSPasteboardWriting", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["O4Node4Node", "init"]
+- ["P4Node10NodeBacked", "init"]
+- !private ["P4Node10NodeBacked", "subscript"]
+- !private ["P4Node10NodeBacked", "transformFromNode"]
+- !private ["P4Node10NodeBacked", "transformToNode"]
+- ["P4Node15NodeConvertible", "init"]
+- !private ["P4Node15NodeConvertible", "subscript"]
+- !private ["P4Node15NodeConvertible", "transformFromNode"]
+- !private ["P4Node15NodeConvertible", "transformToNode"]
+- ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "subscript"]
+- !private ["P4Node17NodeInitializable", "transformFromNode"]
+- !private ["P4Node17NodeInitializable", "transformToNode"]
+- ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "subscript"]
+- !private ["P4Node17NodeRepresentable", "transformFromNode"]
+- !private ["P4Node17NodeRepresentable", "transformToNode"]
+- !private ["Sq", "transformFromNode"]
+- !private ["Sq", "transformToNode"]
+- ["P13PathIndexable9PathIndex", "init"]
+- ["P13PathIndexable13PathIndexable", "init"]
+- !private ["P13PathIndexable13PathIndexable", "subscript"]
+- !private ["P13PathIndexable13PathIndexable", "transformFromNode"]
+- !private ["P13PathIndexable13PathIndexable", "transformToNode"]
+- ["P11Polymorphic11Polymorphic", "init"]
+- !private ["P11Polymorphic11Polymorphic", "subscript"]
+- !private ["P11Polymorphic11Polymorphic", "transformFromNode"]
+- !private ["P11Polymorphic11Polymorphic", "transformToNode"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["C11GenomeTests13TransformTest", "Map"]
+- ["C11GenomeTests13TransformTest", "Node"]
+- ["C11GenomeTests13TransformTest", "String"]
+- !private ["C11GenomeTests13TransformTest", "XCTAssert"]
+- ["C11GenomeTests13TransformTest", "allTests"]
+- ["C11GenomeTests13TransformTest", "deinit"]
+- ["C11GenomeTests13TransformTest", "init"]
+- ["C11GenomeTests13TransformTest", "optStringToString"]
+- ["C11GenomeTests13TransformTest", "stringToString"]
+- ["C11GenomeTests13TransformTest", "testNode"]
+- ["C11GenomeTests13TransformTest", "testTransform"]
+- !private ["PSo17XCTWaiterDelegate", "Map"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssert"]
+- !private ["PSo17XCTWaiterDelegate", "init"]
+- !private ["PSo17XCTWaiterDelegate", "optStringToString"]
+- !private ["PSo17XCTWaiterDelegate", "stringToString"]
+- !private ["PSo17XCTWaiterDelegate", "testNode"]
+- ["PSo17XCTWaiterDelegate", "testTransform"]
+- ["PSo17XCTWaiterDelegate", ""]
+- !private ["CSo6XCTest", "Map"]
+- ["CSo6XCTest", "Node"]
+- ["CSo6XCTest", "String"]
+- !private ["CSo6XCTest", "XCTAssert"]
+- ["CSo6XCTest", "allTests"]
+- ["CSo6XCTest", "init"]
+- ["CSo6XCTest", "optStringToString"]
+- ["CSo6XCTest", "stringToString"]
+- ["CSo6XCTest", "testNode"]
+- ["CSo6XCTest", "testTransform"]
+- !private ["CSo10XCTestCase", "Map"]
+- ["CSo10XCTestCase", "Node"]
+- ["CSo10XCTestCase", "String"]
+- !private ["CSo10XCTestCase", "XCTAssert"]
+- ["CSo10XCTestCase", "allTests"]
+- ["CSo10XCTestCase", "init"]
+- ["CSo10XCTestCase", "optStringToString"]
+- ["CSo10XCTestCase", "stringToString"]
+- ["CSo10XCTestCase", "testNode"]
+- ["CSo10XCTestCase", "testTransform"]
+- ["CSo10XCTestCase", ""]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Map"]
+- !private ["Ps9_Hashable", "XCTAssert"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "optStringToString"]
+- !private ["Ps9_Hashable", "stringToString"]
+- !private ["Ps9_Hashable", "testNode"]
+- ["Ps9_Hashable", "testTransform"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "transformFromNode"]
+- !private ["Ps21_ObjectiveCBridgeable", "transformToNode"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "P4Node7Context"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- !private "C6Genome3Map"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo19NSPasteboardReading"
+- "PSo19NSPasteboardWriting"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "O4Node4Node"
+- "P4Node10NodeBacked"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- !private "Sq"
+- "P13PathIndexable9PathIndex"
+- "P13PathIndexable13PathIndexable"
+- "P11Polymorphic11Polymorphic"
+- !private "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "C11GenomeTests13TransformTest"
+- "PSo17XCTWaiterDelegate"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUISiriService.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSPredicateExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTKVOExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTDarwinNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTWaiter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XCTest.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/Genome.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/Node.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/PathIndexable.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "86877db9d7ca21548563781eb41794cc"

@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/master.swiftdeps"
+  },
+  "/Users/agrosam/Develop/Genome/Genome/Tests/GenomeTests/BasicTypes.swift": {
+    "dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/BasicTypes.d",
+    "object": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/BasicTypes.swift.o",
+    "swiftmodule": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/BasicTypes~partial.swiftmodule",
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/BasicTypes.swiftdeps"
+  },
+  "/Users/agrosam/Develop/Genome/Genome/Tests/GenomeTests/DictionaryKeyPathTests.swift": {
+    "dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/DictionaryKeyPathTests.d",
+    "object": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/DictionaryKeyPathTests.swift.o",
+    "swiftmodule": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/DictionaryKeyPathTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/DictionaryKeyPathTests.swiftdeps"
+  },
+  "/Users/agrosam/Develop/Genome/Genome/Tests/GenomeTests/FromNodeOperatorTest.swift": {
+    "dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/FromNodeOperatorTest.d",
+    "object": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/FromNodeOperatorTest.swift.o",
+    "swiftmodule": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/FromNodeOperatorTest~partial.swiftmodule",
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/FromNodeOperatorTest.swiftdeps"
+  },
+  "/Users/agrosam/Develop/Genome/Genome/Tests/GenomeTests/NodeDataTypeTest.swift": {
+    "dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/NodeDataTypeTest.d",
+    "object": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/NodeDataTypeTest.swift.o",
+    "swiftmodule": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/NodeDataTypeTest~partial.swiftmodule",
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/NodeDataTypeTest.swiftdeps"
+  },
+  "/Users/agrosam/Develop/Genome/Genome/Tests/GenomeTests/PathIndexable.swift": {
+    "dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/PathIndexable.d",
+    "object": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/PathIndexable.swift.o",
+    "swiftmodule": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/PathIndexable~partial.swiftmodule",
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/PathIndexable.swiftdeps"
+  },
+  "/Users/agrosam/Develop/Genome/Genome/Tests/GenomeTests/SettableOperatorTest.swift": {
+    "dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/SettableOperatorTest.d",
+    "object": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/SettableOperatorTest.swift.o",
+    "swiftmodule": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/SettableOperatorTest~partial.swiftmodule",
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/SettableOperatorTest.swiftdeps"
+  },
+  "/Users/agrosam/Develop/Genome/Genome/Tests/GenomeTests/ToNodeOperatorTest.swift": {
+    "dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/ToNodeOperatorTest.d",
+    "object": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/ToNodeOperatorTest.swift.o",
+    "swiftmodule": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/ToNodeOperatorTest~partial.swiftmodule",
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/ToNodeOperatorTest.swiftdeps"
+  },
+  "/Users/agrosam/Develop/Genome/Genome/Tests/GenomeTests/TransformTests.swift": {
+    "dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/TransformTests.d",
+    "object": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/TransformTests.swift.o",
+    "swiftmodule": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/TransformTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeTests.build/TransformTests.swiftdeps"
+  }
+}

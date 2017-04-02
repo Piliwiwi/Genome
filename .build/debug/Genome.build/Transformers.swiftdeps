@@ -1,0 +1,253 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Transformer"
+- "FromNodeTransformer"
+- "ToNodeTransformer"
+- "TwoWayTransformer"
+- "<~>"
+- "<~>"
+- "<~>"
+- "<~"
+- "~>"
+provides-nominal:
+- "C6Genome11Transformer"
+- "C6Genome19FromNodeTransformer"
+- "C6Genome17ToNodeTransformer"
+- "C6Genome17TwoWayTransformer"
+provides-member:
+- ["C6Genome11Transformer", ""]
+- ["C6Genome19FromNodeTransformer", ""]
+- ["C6Genome17ToNodeTransformer", ""]
+- ["C6Genome17TwoWayTransformer", ""]
+- ["C6Genome3Map", ""]
+- ["C6Genome3Map", "transformFromNode"]
+- ["C6Genome3Map", "transformFromNode"]
+- ["C6Genome3Map", "transformToNode"]
+provides-dynamic-lookup:
+depends-top-level:
+- "<~"
+- "<~>"
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- "FromNodeTransformer"
+- !private "IntegerLiteralType"
+- "Map"
+- "Node"
+- "NodeConvertible"
+- !private "NodeError"
+- !private "Optional"
+- "StringLiteralType"
+- "ToNodeTransformer"
+- "Transformer"
+- "TwoWayTransformer"
+- "~>"
+depends-member:
+- !private ["Ps9AnyObject", "ConvertibleInput"]
+- !private ["Ps9AnyObject", "FromNodeTransformer"]
+- !private ["Ps9AnyObject", "InputType"]
+- !private ["Ps9AnyObject", "NodeError"]
+- !private ["Ps9AnyObject", "Optional"]
+- !private ["Ps9AnyObject", "ToNodeTransformer"]
+- !private ["Ps9AnyObject", "TwoWayTransformer"]
+- !private ["Ps9AnyObject", "fromNodeTransformer"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "result"]
+- !private ["Ps9AnyObject", "setToLastPath"]
+- !private ["Ps9AnyObject", "toNodeTransformer"]
+- !private ["Ps9AnyObject", "transform"]
+- !private ["Ps9AnyObject", "transformer"]
+- !private ["Ps9AnyObject", "type"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "none"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "none"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps9Equatable", "fromNode"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "toNode"]
+- !private ["Ps5Error", "unableToConvert"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "none"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C6Genome19FromNodeTransformer", "ConvertibleInput"]
+- ["C6Genome19FromNodeTransformer", "Map"]
+- ["C6Genome19FromNodeTransformer", "Node"]
+- ["C6Genome19FromNodeTransformer", "NodeConvertible"]
+- !private ["C6Genome19FromNodeTransformer", "Optional"]
+- !private ["C6Genome19FromNodeTransformer", "ToNodeTransformer"]
+- ["C6Genome19FromNodeTransformer", "TransformedOutput"]
+- ["C6Genome19FromNodeTransformer", "TwoWayTransformer"]
+- ["C6Genome19FromNodeTransformer", "deinit"]
+- ["C6Genome19FromNodeTransformer", "init"]
+- !private ["C6Genome19FromNodeTransformer", "map"]
+- ["C6Genome19FromNodeTransformer", "transform"]
+- ["C6Genome19FromNodeTransformer", "transformToNode"]
+- ["Ps8Hashable", "fromNode"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "toNode"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- ["C6Genome3Map", "FromNodeTransformer"]
+- ["C6Genome3Map", "NodeConvertible"]
+- ["C6Genome3Map", "ToNodeTransformer"]
+- !private ["C6Genome3Map", "result"]
+- !private ["C6Genome3Map", "setToLastPath"]
+- ["C6Genome3Map", "transformFromNode"]
+- ["C6Genome3Map", "transformToNode"]
+- !private ["C6Genome3Map", "type"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["P4Node10NodeBacked", "FromNodeTransformer"]
+- !private ["P4Node10NodeBacked", "ToNodeTransformer"]
+- !private ["P4Node10NodeBacked", "result"]
+- !private ["P4Node10NodeBacked", "setToLastPath"]
+- !private ["P4Node10NodeBacked", "type"]
+- !private ["P4Node15NodeConvertible", "FromNodeTransformer"]
+- !private ["P4Node15NodeConvertible", "ToNodeTransformer"]
+- !private ["P4Node15NodeConvertible", "init"]
+- !private ["P4Node15NodeConvertible", "makeNode"]
+- !private ["P4Node15NodeConvertible", "result"]
+- !private ["P4Node15NodeConvertible", "setToLastPath"]
+- !private ["P4Node15NodeConvertible", "type"]
+- !private ["O4Node9NodeError", "unableToConvert"]
+- !private ["P4Node17NodeInitializable", "FromNodeTransformer"]
+- !private ["P4Node17NodeInitializable", "ToNodeTransformer"]
+- !private ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "makeNode"]
+- !private ["P4Node17NodeInitializable", "result"]
+- !private ["P4Node17NodeInitializable", "setToLastPath"]
+- !private ["P4Node17NodeInitializable", "type"]
+- !private ["P4Node17NodeRepresentable", "FromNodeTransformer"]
+- !private ["P4Node17NodeRepresentable", "ToNodeTransformer"]
+- !private ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "makeNode"]
+- !private ["P4Node17NodeRepresentable", "result"]
+- !private ["P4Node17NodeRepresentable", "setToLastPath"]
+- !private ["P4Node17NodeRepresentable", "type"]
+- ["OC6Genome3Map13OperationType", "fromNode"]
+- ["OC6Genome3Map13OperationType", "toNode"]
+- !private ["Sq", "none"]
+- !private ["P13PathIndexable9PathIndex", "init"]
+- !private ["P13PathIndexable13PathIndexable", "FromNodeTransformer"]
+- !private ["P13PathIndexable13PathIndexable", "ToNodeTransformer"]
+- !private ["P13PathIndexable13PathIndexable", "result"]
+- !private ["P13PathIndexable13PathIndexable", "setToLastPath"]
+- !private ["P13PathIndexable13PathIndexable", "type"]
+- !private ["P11Polymorphic11Polymorphic", "FromNodeTransformer"]
+- !private ["P11Polymorphic11Polymorphic", "ToNodeTransformer"]
+- !private ["P11Polymorphic11Polymorphic", "init"]
+- !private ["P11Polymorphic11Polymorphic", "result"]
+- !private ["P11Polymorphic11Polymorphic", "setToLastPath"]
+- !private ["P11Polymorphic11Polymorphic", "type"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["C6Genome17ToNodeTransformer", "ConvertibleOutput"]
+- !private ["C6Genome17ToNodeTransformer", "FromNodeTransformer"]
+- ["C6Genome17ToNodeTransformer", "Input"]
+- ["C6Genome17ToNodeTransformer", "Map"]
+- ["C6Genome17ToNodeTransformer", "Node"]
+- ["C6Genome17ToNodeTransformer", "NodeConvertible"]
+- ["C6Genome17ToNodeTransformer", "TwoWayTransformer"]
+- ["C6Genome17ToNodeTransformer", "deinit"]
+- ["C6Genome17ToNodeTransformer", "init"]
+- !private ["C6Genome17ToNodeTransformer", "map"]
+- ["C6Genome17ToNodeTransformer", "transform"]
+- ["C6Genome17ToNodeTransformer", "transformFromNode"]
+- !private ["C6Genome17ToNodeTransformer", "transformer"]
+- ["C6Genome11Transformer", "ConvertibleInput"]
+- ["C6Genome11Transformer", "ConvertibleOutput"]
+- !private ["C6Genome11Transformer", "FromNodeTransformer"]
+- ["C6Genome11Transformer", "Input"]
+- ["C6Genome11Transformer", "InputType"]
+- ["C6Genome11Transformer", "Map"]
+- ["C6Genome11Transformer", "Node"]
+- ["C6Genome11Transformer", "NodeConvertible"]
+- !private ["C6Genome11Transformer", "NodeError"]
+- !private ["C6Genome11Transformer", "Optional"]
+- ["C6Genome11Transformer", "OutputType"]
+- !private ["C6Genome11Transformer", "ToNodeTransformer"]
+- ["C6Genome11Transformer", "TransformedOutput"]
+- ["C6Genome11Transformer", "TwoWayTransformer"]
+- ["C6Genome11Transformer", "deinit"]
+- ["C6Genome11Transformer", "init"]
+- ["C6Genome11Transformer", "map"]
+- ["C6Genome11Transformer", "transform"]
+- ["C6Genome11Transformer", "transformFromNode"]
+- ["C6Genome11Transformer", "transformToNode"]
+- ["C6Genome11Transformer", "transformer"]
+- ["C6Genome11Transformer", ""]
+- ["C6Genome17TwoWayTransformer", "FromNodeTransformer"]
+- ["C6Genome17TwoWayTransformer", "InputNodeType"]
+- ["C6Genome17TwoWayTransformer", "Map"]
+- ["C6Genome17TwoWayTransformer", "OutputNodeType"]
+- ["C6Genome17TwoWayTransformer", "ToNodeTransformer"]
+- ["C6Genome17TwoWayTransformer", "TransformedType"]
+- ["C6Genome17TwoWayTransformer", "deinit"]
+- ["C6Genome17TwoWayTransformer", "fromNodeTransformer"]
+- ["C6Genome17TwoWayTransformer", "init"]
+- ["C6Genome17TwoWayTransformer", "map"]
+- ["C6Genome17TwoWayTransformer", "toNodeTransformer"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps9_Hashable", "fromNode"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "toNode"]
+- !private ["Ps21_ObjectiveCBridgeable", "none"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C6Genome19FromNodeTransformer"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "C6Genome3Map"
+- !private "Ps10MirrorPath"
+- !private "P4Node10NodeBacked"
+- !private "P4Node15NodeConvertible"
+- !private "O4Node9NodeError"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- "OC6Genome3Map13OperationType"
+- !private "Sq"
+- !private "P13PathIndexable9PathIndex"
+- !private "P13PathIndexable13PathIndexable"
+- !private "P11Polymorphic11Polymorphic"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "C6Genome17ToNodeTransformer"
+- "C6Genome11Transformer"
+- "C6Genome17TwoWayTransformer"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/Node.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/PathIndexable.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "3e682bbd65b728148976303ea97bf690"

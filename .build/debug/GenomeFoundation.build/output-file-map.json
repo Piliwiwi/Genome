@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeFoundation.build/master.swiftdeps"
+  },
+  "/Users/agrosam/Develop/Genome/Genome/Sources/GenomeFoundation/Foundation.swift": {
+    "dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeFoundation.build/Foundation.d",
+    "object": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeFoundation.build/Foundation.swift.o",
+    "swiftmodule": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeFoundation.build/Foundation~partial.swiftmodule",
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeFoundation.build/Foundation.swiftdeps"
+  },
+  "/Users/agrosam/Develop/Genome/Genome/Sources/GenomeFoundation/GenomeFoundation+Exports.swift": {
+    "dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeFoundation.build/GenomeFoundation+Exports.d",
+    "object": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeFoundation.build/GenomeFoundation+Exports.swift.o",
+    "swiftmodule": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeFoundation.build/GenomeFoundation+Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeFoundation.build/GenomeFoundation+Exports.swiftdeps"
+  },
+  "/Users/agrosam/Develop/Genome/Genome/Sources/GenomeFoundation/Node+Foundation.swift": {
+    "dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeFoundation.build/Node+Foundation.d",
+    "object": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeFoundation.build/Node+Foundation.swift.o",
+    "swiftmodule": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeFoundation.build/Node+Foundation~partial.swiftmodule",
+    "swift-dependencies": "/Users/agrosam/Develop/Genome/Genome/.build/debug/GenomeFoundation.build/Node+Foundation.swiftdeps"
+  }
+}

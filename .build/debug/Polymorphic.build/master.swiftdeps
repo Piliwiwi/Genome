@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "163fea9eca35878a5c319bcdee8ff2e3"
+build_time: [544394343, 749866000]
+inputs:
+  "/Users/agrosam/Develop/Genome/Genome/.build/checkouts/polymorphic.git--4354167031091999056/Sources/Polymorphic.swift": [544394342, 0]
+  "/Users/agrosam/Develop/Genome/Genome/.build/checkouts/polymorphic.git--4354167031091999056/Sources/String+Polymorphic.swift": [544394342, 0]

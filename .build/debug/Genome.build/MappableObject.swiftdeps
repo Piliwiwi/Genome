@@ -1,0 +1,135 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MappableBase"
+- "MappableObject"
+- "BasicMappable"
+- "Object"
+- "BasicObject"
+provides-nominal:
+- "P6Genome12MappableBase"
+- "P6Genome14MappableObject"
+- "P6Genome13BasicMappable"
+- "C6Genome6Object"
+- "C6Genome11BasicObject"
+provides-member:
+- ["P6Genome12MappableBase", ""]
+- ["P6Genome14MappableObject", ""]
+- ["P6Genome13BasicMappable", ""]
+- ["C6Genome6Object", ""]
+- ["C6Genome11BasicObject", ""]
+- ["P6Genome12MappableBase", "makeNode"]
+- ["P6Genome14MappableObject", "sequence"]
+- ["P6Genome14MappableObject", "init"]
+- ["P6Genome13BasicMappable", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "BasicMappable"
+- "BasicObject"
+- "Context"
+- !private "EmptyNode"
+- "Map"
+- "MappableBase"
+- "MappableObject"
+- "Node"
+- "NodeConvertible"
+- "Object"
+- "Void"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "makeNode"]
+- !private ["Ps9AnyObject", "node"]
+- ["Ps9AnyObject", "sequence"]
+- ["Ps9AnyObject", ""]
+- ["P6Genome13BasicMappable", "Map"]
+- ["P6Genome13BasicMappable", "init"]
+- ["P6Genome13BasicMappable", "makeNode"]
+- ["P6Genome13BasicMappable", "sequence"]
+- ["P6Genome13BasicMappable", ""]
+- ["C6Genome11BasicObject", "Map"]
+- ["C6Genome11BasicObject", "deinit"]
+- ["C6Genome11BasicObject", "init"]
+- ["C6Genome11BasicObject", "makeNode"]
+- ["C6Genome11BasicObject", "sequence"]
+- !private ["C6Genome3Map", "deinit"]
+- !private ["C6Genome3Map", "init"]
+- !private ["C6Genome3Map", "node"]
+- ["P6Genome12MappableBase", "Context"]
+- !private ["P6Genome12MappableBase", "EmptyNode"]
+- ["P6Genome12MappableBase", "Map"]
+- ["P6Genome12MappableBase", "Node"]
+- ["P6Genome12MappableBase", "Void"]
+- ["P6Genome12MappableBase", "init"]
+- ["P6Genome12MappableBase", "makeNode"]
+- ["P6Genome12MappableBase", "sequence"]
+- ["P6Genome12MappableBase", ""]
+- ["P6Genome14MappableObject", "Context"]
+- !private ["P6Genome14MappableObject", "EmptyNode"]
+- ["P6Genome14MappableObject", "Map"]
+- ["P6Genome14MappableObject", "Node"]
+- ["P6Genome14MappableObject", "init"]
+- ["P6Genome14MappableObject", "makeNode"]
+- ["P6Genome14MappableObject", "sequence"]
+- ["P6Genome14MappableObject", ""]
+- !private ["P4Node10NodeBacked", "init"]
+- !private ["P4Node10NodeBacked", "node"]
+- ["P4Node15NodeConvertible", "Context"]
+- !private ["P4Node15NodeConvertible", "EmptyNode"]
+- ["P4Node15NodeConvertible", "Map"]
+- ["P4Node15NodeConvertible", "Node"]
+- ["P4Node15NodeConvertible", "Void"]
+- ["P4Node15NodeConvertible", "init"]
+- ["P4Node15NodeConvertible", "makeNode"]
+- !private ["P4Node15NodeConvertible", "node"]
+- ["P4Node15NodeConvertible", "sequence"]
+- ["P4Node15NodeConvertible", ""]
+- ["P4Node17NodeInitializable", "Context"]
+- !private ["P4Node17NodeInitializable", "EmptyNode"]
+- ["P4Node17NodeInitializable", "Map"]
+- ["P4Node17NodeInitializable", "Node"]
+- ["P4Node17NodeInitializable", "Void"]
+- ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeInitializable", "makeNode"]
+- !private ["P4Node17NodeInitializable", "node"]
+- ["P4Node17NodeInitializable", "sequence"]
+- ["P4Node17NodeInitializable", ""]
+- ["P4Node17NodeRepresentable", "Context"]
+- !private ["P4Node17NodeRepresentable", "EmptyNode"]
+- ["P4Node17NodeRepresentable", "Map"]
+- ["P4Node17NodeRepresentable", "Node"]
+- ["P4Node17NodeRepresentable", "Void"]
+- ["P4Node17NodeRepresentable", "init"]
+- ["P4Node17NodeRepresentable", "makeNode"]
+- !private ["P4Node17NodeRepresentable", "node"]
+- ["P4Node17NodeRepresentable", "sequence"]
+- ["P4Node17NodeRepresentable", ""]
+- ["C6Genome6Object", "Map"]
+- ["C6Genome6Object", "deinit"]
+- ["C6Genome6Object", "init"]
+- ["C6Genome6Object", "makeNode"]
+- ["C6Genome6Object", "sequence"]
+- !private ["P13PathIndexable13PathIndexable", "init"]
+- !private ["P13PathIndexable13PathIndexable", "node"]
+- !private ["P11Polymorphic11Polymorphic", "init"]
+- !private ["P11Polymorphic11Polymorphic", "node"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P6Genome13BasicMappable"
+- "C6Genome11BasicObject"
+- !private "C6Genome3Map"
+- "P6Genome12MappableBase"
+- "P6Genome14MappableObject"
+- !private "P4Node10NodeBacked"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "C6Genome6Object"
+- !private "P13PathIndexable13PathIndexable"
+- !private "P11Polymorphic11Polymorphic"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/Node.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/PathIndexable.swiftmodule"
+- "/Users/agrosam/Develop/Genome/Genome/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "c530297dea565964ed66be9566e352d1"
