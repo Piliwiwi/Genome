@@ -10,7 +10,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "echo cd &quot;${PROJECT_DIR}&quot;&#10;cd &quot;${PROJECT_DIR}&quot;&#10;mkdir -p &quot;./.build&quot;&#10;exec &gt; &quot;${PROJECT_DIR}/.build/prebuild.log&quot; 2&gt;&amp;1&#10;pwd&#10;swiftVersion=`/usr/bin/xcrun swift --version`&#10;echo $swiftVersion&#10;if echo $swiftVersion | grep -i &apos;Swift Version [1-3]\.&apos; &gt;&gt; /dev/null&#10;then&#10;    echo &quot;/usr/bin/xcrun --sdk macosx swift package fetch&quot;&#10;    bash --login -c &quot;/usr/bin/xcrun --sdk macosx swift package fetch&quot;&#10;else&#10;    echo &quot;/usr/bin/xcrun --sdk macosx swift package resolve&quot;&#10;    bash --login -c &quot;/usr/bin/xcrun --sdk macosx swift package resolve&quot;&#10;fi">
+               scriptText = "echo cd &quot;${PROJECT_DIR}&quot;&#10;cd &quot;${PROJECT_DIR}&quot;&#10;mkdir -p &quot;./.build&quot;&#10;exec &gt; &quot;${PROJECT_DIR}/.build/prebuild.log&quot; 2&gt;&amp;1&#10;pwd&#10;swiftVersion=`/usr/bin/xcrun swift --version`&#10;echo $swiftVersion&#10;if echo $swiftVersion | grep -i &apos;Swift Version [1-3]\.&apos; &gt;&gt; /dev/null&#10;then&#10;    echo &quot;/usr/bin/xcrun --sdk macosx swift package fetch&quot;&#10;    /usr/bin/xcrun --sdk macosx swift package fetch&#10;else&#10;    echo &quot;/usr/bin/xcrun --sdk macosx swift package resolve&quot;&#10;    /usr/bin/xcrun --sdk macosx swift package resolve&#10;fi">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
