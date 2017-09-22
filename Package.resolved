@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Node",
+        "repositoryURL": "https://github.com/couchdeveloper/node.git",
+        "state": {
+          "branch": null,
+          "revision": "fd89b481323449e31c2da37c19bb1dd8a01b770a",
+          "version": "1.0.2"
+        }
+      },
+      {
+        "package": "PathIndexable",
+        "repositoryURL": "https://github.com/vapor/path-indexable.git",
+        "state": {
+          "branch": null,
+          "revision": "0aa6f6eb151ce5747509ca6591cf6a4379e72851",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "Polymorphic",
+        "repositoryURL": "https://github.com/vapor/polymorphic.git",
+        "state": {
+          "branch": null,
+          "revision": "43ad0c4ce02cff79fbdf33977c2a9599835d4dde",
+          "version": "1.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
